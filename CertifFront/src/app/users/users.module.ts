@@ -6,6 +6,8 @@ import { ServiceComponent } from './service/service.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { ListComponent } from './list/list.component';
+import { ShowComponent } from './show/show.component';
+import { DeleteComponent } from './delete/delete.component';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { ListComponent } from './list/list.component';
     ServiceComponent,
     AddComponent,
     EditComponent,
-    ListComponent
+    ListComponent,
+    ShowComponent,
+    DeleteComponent
   ],
   imports: [
     CommonModule,
